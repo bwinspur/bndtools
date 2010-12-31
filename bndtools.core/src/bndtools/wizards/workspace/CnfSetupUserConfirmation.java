@@ -9,6 +9,7 @@ class CnfSetupUserConfirmation {
 	private final Operation operation;
 	private Decision decision = Decision.SETUP;
 
+	// constructor
 	public CnfSetupUserConfirmation(Operation operation) {
 		this.operation = operation;
 	}
